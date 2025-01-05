@@ -17,7 +17,7 @@ LDFLAGS  := \
 SOURCES  := $(wildcard $(SRC_DIR)/*.c)
 OBJECTS  := $(SOURCES:.c=.o)
 
-EXEC     :=  rescan
+EXEC     :=  nebula
 
 
 .PHONY: all clean
